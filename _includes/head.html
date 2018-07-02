@@ -6,4 +6,30 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+
+	<!-- Cookie Notice -->
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+		"background": "#eb6c44",
+		"text": "#ffffff"
+		},
+		"button": {
+		"background": "transparent",
+		"text": "#f5d948",
+		"border": "#f5d948"
+		}
+	},
+	"content": {
+		"dismiss": "Dismiss",
+		"href": "https://technobodhi.com/privacy"
+	}
+	})});
+	</script>
+
+	
 </head>
