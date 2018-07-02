@@ -2,7 +2,7 @@
 title: Michael R Brant
 subtitle: Creative | Photographer | Entrepreneur
 email: sayhi@michaelbrant.com
-description: Michael R Brant is an amateur photographer, web developer and world traveler. He has been to over 39 countries.
+description: "I'm a San Diego, CA based web developer, amateur photographer, entrepreneur and world traveler."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: "Michael R Brant"
@@ -11,10 +11,13 @@ city: Chula Vista
 state: CA
 zip_code: 91912
 country: USA
-phone: 
+phone: "(415) 763-5881"
+
+# Site Logo
+logo: "/assets/images/Logo/Logo-White-Full.svg"
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings

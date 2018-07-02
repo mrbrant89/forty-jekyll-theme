@@ -151,6 +151,11 @@
 			}
 		}
 
+		#site-logo {
+			width: 500px;
+			padding: 2em;
+		}
+
 		@include breakpoint(xlarge) {
 			nav {
 				a {
@@ -162,6 +167,9 @@
 						}
 					}
 				}
+			}
+			#site-logo {
+				width: 400px;
 			}
 		}
 
@@ -176,6 +184,9 @@
 						}
 					}
 				}
+			}
+			#site-logo {
+				width: 350px;
 			}
 		}
 
@@ -212,6 +223,12 @@
 					}
 				}
 			}
+			#site-logo {
+				width: 350px;
+			}
+			#banner .inner {
+				margin: 8em auto !important;
+			}
 		}
 
 		@include breakpoint(xsmall) {
@@ -243,6 +260,10 @@
 						}
 					}
 				}
+			}
+			#site-logo {
+				width: 300px;
+				margin-bottom: 4em !important;
 			}
 		}
 	}
