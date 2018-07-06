@@ -15,6 +15,7 @@ phone: "(415) 763-5881"
 
 # Site Logo
 logo: "/assets/images/Logo/Logo-White-Full.svg"
+logoAlt: "assets/images/Logo/Logo-White-No-Tagline.svg"
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
