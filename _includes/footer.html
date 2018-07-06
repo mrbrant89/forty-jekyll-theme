@@ -117,24 +117,5 @@
 	<script src="{{ "/assets/js/util.js" | absolute_url }}"></script>
 	<!--[if lte IE 8]><script src="{{ "/assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "/assets/js/main.js" | absolute_url }}"></script>
-
-<!-- Open All External Links in New Tab -->
-<script>
-    // Call this function first
-(function () {
-  handleLinks()
-})()
-
-function handleLinks () {
-  // Don't open our own site's links in new tabs
-  var host = location.hostname 
-  // Grab and loop over all <a> elements
-  var allLinks = document.querySelectorAll('a') 
-  for (var i = 0; i < allLinks.length; ++i) {
-    // if links are external and not empty
-    if (allLinks[i].hostname !== host && allLinks[i].hostname !== '') {
-      allLinks[i].target = '_blank'
-    }
-  }
-}
-</script>	
+	<script src="{{ "/assets/js/custom-javascript.js" | absolute_url }}"></script>
+	<script src="{{ "/assets/js/custom-jquery.js" | absolute_url }}"></script>
