@@ -1,4 +1,4 @@
-// Logo Resize
+// Logo Resize On Scroll
 $(document).on('scroll', function() {
     logo = "assets/images/Logo/Logo-White-Full.svg"
     logoAlt = "assets/images/Logo/Logo-White-No-Tagline.svg"
