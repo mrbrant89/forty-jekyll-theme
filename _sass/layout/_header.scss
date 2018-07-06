@@ -156,6 +156,12 @@
 			padding: 2em;
 		}
 
+		#header.reveal > a > #site-logo {
+			width: 150px;
+			padding: 0.5em;
+			margin: 0;
+		}
+
 		@include breakpoint(xlarge) {
 			nav {
 				a {
