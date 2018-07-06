@@ -4,7 +4,7 @@ subtitle: Creative | Photographer | Entrepreneur
 email: sayhi@michaelbrant.com
 description: "I'm a San Diego, CA based web developer, amateur photographer, entrepreneur and world traveler."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: https://mrbrant89.github.io/michaelbrant/ # the base hostname & protocol for your site
 author: "Michael R Brant"
 street_address: PO Box 138
 city: Chula Vista
