@@ -7,8 +7,14 @@ $(document).on('scroll', function() {
       $('#site-logo').css('padding', '0.5em');
       $('#site-logo').attr('src', logoAlt);
     } else {
-      $('#site-logo').css('width', '');
-      $('#site-logo').css('padding', '');
-      $('#site-logo').attr('src', logo);
+      if ($('#header').height() <= 52) {
+        $('#site-logo').css('width', '150px');
+        $('#site-logo').css('padding', '0.5em');
+        $('#site-logo').attr('src', logoAlt);
+      } else {
+        $('#site-logo').css('width', '');
+        $('#site-logo').css('padding', '');
+        $('#site-logo').attr('src', logo);
+      }
     }
   });
