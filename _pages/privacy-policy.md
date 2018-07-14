@@ -4,7 +4,7 @@ title: Privacy Policy
 description: Lorem ipsum dolor est
 image: assets/images/2018/07/astronomy-cosmos-exploration-167843.jpg
 permalink: /privacy/
-nav-menu: true
+nav-menu: false
 ---
 
 <p>Effective date: July 14, 2018</p>
