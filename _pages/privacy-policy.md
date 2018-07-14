@@ -9,7 +9,6 @@ nav-menu: false
 
 <p>Effective date: July 14, 2018</p>
 
-
 <p>Michael R Brant ("us", "we", or "our") operates the https://michaelbrant.com website (the "Service").</p>
 
 <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This Privacy Policy  for Michael R Brant is powered by <a href="https://privacypolicies.com/free-privacy-policy-generator/">PrivacyPolicies.com</a>.</p>
