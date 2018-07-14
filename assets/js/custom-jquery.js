@@ -1,7 +1,7 @@
 // Logo Resize On Scroll
 $(document).on('scroll', function() {
-    logo = "assets/images/Logo/Logo-White-Full.svg"
-    logoAlt = "assets/images/Logo/Logo-White-No-Tagline.svg"
+    logo = "https://michaelbrant.com/assets/images/Logo/Logo-White-Full.svg"
+    logoAlt = "https://michaelbrant.com/assets/images/Logo/Logo-White-No-Tagline.svg"
     if ($(document).scrollTop() >= 150) {
       $('#site-logo').css('width', '150px');
       $('#site-logo').css('padding', '0.5em');
