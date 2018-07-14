@@ -11,4 +11,10 @@ $( document ).ready(function() {
       $('#site-logo').css('padding', '0.5em');
       $('#site-logo').attr('src', logo);
     }
+
+    if ( $("#header").hasClass("reveal") ) {
+      $('#site-logo').css('width', '150px');
+      $('#site-logo').css('padding', '0.5em');
+      $('#site-logo').attr('src', logo);
+    }
   });
