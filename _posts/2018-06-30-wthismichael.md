@@ -7,4 +7,4 @@ redirect: https://wherethehellismichael.com
 date: 2018-06-30T00:01:00+00:00
 ---
 
-The travel and food blog of Michael Brant - follow him on his adventures arond the world and learn about fun food
+The travel and food blog of Michael Brant - follow him on his adventures around the world and learn about fun food
